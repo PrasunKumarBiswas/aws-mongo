@@ -20,6 +20,8 @@ userRouter.get('/createadmin', (0, _expressAsyncHandler.default)(async (req, res
       name: 'admin',
       email: 'admin@example.com',
       password: 'ecommerce',
+      phoneno: 7595861251,
+      address: 'New York City',
       isAdmin: true
     });
     const createdUser = await user.save();
